@@ -40,6 +40,7 @@ for(libioc in install.libioc){BiocManager::install(libioc)}
 ### Running PredDNAm:
 
 **Preprocessing**
+
 Input arguments:
 -	Name of the project
 -	Normalization method: Quantile, Illumina, Noob, Funnorm or SWAN
