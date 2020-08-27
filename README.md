@@ -35,7 +35,7 @@ for(libioc in install.libioc){BiocManager::install(libioc)}
 
 ## Pipeline
 
-https://github.com/alespe/PredDNAm/blob/master/images/pipeline.GIF
+![](https://github.com/alespe/PredDNAm/blob/master/images/pipeline.GIF)
 
 ### Running PredDNAm:
 
