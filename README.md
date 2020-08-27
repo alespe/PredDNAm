@@ -35,7 +35,7 @@ for(libioc in install.libioc){BiocManager::install(libioc)}
 
 ## Pipeline
 
-![alt text](https://https://github.com/alespe/PredDNAm/blob/master/images/pipeline.GIF)
+https://github.com/alespe/PredDNAm/blob/master/images/pipeline.GIF
 
 ### Running PredDNAm:
 
@@ -192,9 +192,8 @@ Output:
 
 
 ## References
-
-1-	Fortin J, Triche TJ, Hansen KD. “Preprocessing, normalization and integration of the Illumina HumanMethylationEPIC array with minfi.” Bioinformatics, 33(4) (2017). doi: 10.1093/bioinformatics/btw691.
-2-	Leek J, Jonhson WE, Parker HS. et al. “The sva package for removing batch effects and other unwanted variation in high-throughput experiments”. Bioinformatics, 28(6): 882–883 (2012). doi: 10.1093/bioinformatics/bts034
-3-	Newman A.M., Steen C.B., Liu C.L. et al. “Determining cell type abundance and expression from bulk tissues with digital cytometry”. Nat Biotechnol 37, 773–782 (2019). doi: 10.1038/s41587-019-0114-2
-4-	Yang Z., Wong A., Kuh D. et al. “Correlation of an epigenetic mitotic clock with cancer risk”. Genome Biol 17, 205 (2016). doi: 10.1186/s13059-016-1064-3
-5-	Kundaje A., Meuleman W., Ernst J. et al. “Integrative analysis of 111 reference human epigenomes”. Nature 518, 317–330 (2015). doi.org/10.1038/nature142483
+1.Fortin J, Triche TJ, Hansen KD. “Preprocessing, normalization and integration of the Illumina HumanMethylationEPIC array with minfi.” Bioinformatics, 33(4) (2017). doi: 10.1093/bioinformatics/btw691.
+2.Leek J, Jonhson WE, Parker HS. et al. “The sva package for removing batch effects and other unwanted variation in high-throughput experiments”. Bioinformatics, 28(6): 882–883 (2012). doi: 10.1093/bioinformatics/bts034
+3.Newman A.M., Steen C.B., Liu C.L. et al. “Determining cell type abundance and expression from bulk tissues with digital cytometry”. Nat Biotechnol 37, 773–782 (2019). doi: 10.1038/s41587-019-0114-2
+4.Yang Z., Wong A., Kuh D. et al. “Correlation of an epigenetic mitotic clock with cancer risk”. Genome Biol 17, 205 (2016). doi: 10.1186/s13059-016-1064-3
+5.Kundaje A., Meuleman W., Ernst J. et al. “Integrative analysis of 111 reference human epigenomes”. Nature 518, 317–330 (2015). doi.org/10.1038/nature142483
