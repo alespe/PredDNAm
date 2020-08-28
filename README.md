@@ -7,7 +7,7 @@ What PredDNAm can do:
 -	Feature selection features using the training set based on univariately and multivariately significant, including linear and non-linear relationship with the outcome of interest. Optional: dimensionality reduction techniques (PCA, UMAP, Diffusion maps). Optional standardization (mean of 0 and a standard deviation of 1) and filter based on the coefficient of variation (ratio of the standard deviation to the mean).
 -	Prediction models and performance metrics on the test dataset (“caret” R package)
 -	Additional steps:
-	-	DNA methylation deconvolution using on CIBERSORTx (https://cibersortx.stanford.edu/)
+	-	DNA methylation deconvolution using CIBERSORTx (https://cibersortx.stanford.edu/)
 	-	Mitotic clock (EpiTOC) estimation and multivariate prediction based on control, low-index and high-index categories
 	-	Enrichment of chromatin states and CpGs location of the signature compared to the reference epigenome atlas from the Roadmap Epigenomics Project 
 	-	Validation in independent datasets
