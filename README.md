@@ -1,4 +1,5 @@
-# Cancer Prediction based on DNA methylation (PredDNAm)
+# Future LYmphoma Predictor (FLYP)
+# Cancer Prediction based on DNA methylation
 
 PredDNAm is a command line computational framework that includes 450k DNA methylation preprocessing (1), batch correction (2) (e.g. date of chip analysis), filtering for SNPs and sex chromosomes, feature selection, dimensionality reduction and machine learning-/deep learning-based prediction using DNA methylation data. The pipeline was developed to study predictive lymphoma DNA methylation signals from a prospective lymphoma cohort (REF) and publicly available datasets (GSE4027919, GSE3736239, GSE4237240, GSE10938141, The Cancer Genome Atlas DLBC and GSE4903142) as described in the manuscript (REF). The pipeline also includes DNA methylation deconvolution using CIBERSORTx (3) to infer fractions and DNA methylation profiles from immune cells, estimates of mitotic clock (4) to classify samples into subtypes (e.g. high/low mitotic index) and enrichment of chromatin states and location of the features from the signature by comparing the selected features with a reference epigenome atlas (5). 
 
