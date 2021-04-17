@@ -171,7 +171,7 @@ if(nrow(mat_filt_GA) > ncol(mat)){
 		ggsave(file.path(outputDir,"Pred_ElasticNet.png"))
 
 		results <- coef(lasso_best)
-		coef_sig <- results[which(results[,1] > 0),]
+		coef_sig <- results[which(results[,1] != 0),]
 		final_matrix <- mat[rownames(mat) %in% names(coef_sig),]
 		write.table(final_matrix,file.path(outputDir,paste0("Features.txt")),sep="\t",row.names=TRUE,col.names=NA)
 		}
@@ -224,7 +224,7 @@ if(nrow(mat_filt_GAM) > ncol(mat)){
 		ggsave(file.path(outputDir,"GAM_pred_ElasticNet.png"))
 				
 		results <- coef(lasso_best)
-		coef_sig <- results[which(results[,1] > 0),]
+		coef_sig <- results[which(results[,1] != 0),]
 		final_matrix <- mat[rownames(mat) %in% names(coef_sig),]
 		write.table(final_matrix,file.path(outputDir,paste0("GAM_features.txt")),sep="\t",row.names=TRUE,col.names=NA)
 		}
